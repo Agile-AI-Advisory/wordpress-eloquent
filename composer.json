@@ -1,20 +1,18 @@
 {
-    "name": "angusallman/wordpress-eloquent",
+    "name": "purrdigital/wordpress-eloquent",
     "description": "Forked From: https://github.com/drewjbartlett/wordpress-eloquent. A Laravel wrapper for wordpress which turns all Wordpress models into Laravel Eloquent Models.",
     "keywords": [
         "wordpress",
         "eloquent",
         "laravel"
     ],
-    "homepage": "https://github.com/allmanaj/wordpress-eloquent",
-    "support": {
-        "issues": "https://github.com/allmanaj/wordpress-eloquent/issues",
-        "source": "https://github.com/allmanaj/wordpress-eloquent"
-    },
+    "homepage": "https://github.com/Purr-Digital/wordpress-eloquent",
+    "license": "MIT",
     "authors": [
         {
-            "name": "Drew J Bartlett",
-            "email": "drewjbartlett@gmail.com"
+            "name": "PurrDigital",
+            "email": "info@purrgroup.com",
+            "role": "Digital Agency"
         }
     ],
     "minimum-stability": "dev",
@@ -26,6 +24,5 @@
         "psr-4": {
             "WPEloquent\\": "WPEloquent/"
         }
-    },
-    "license": "MIT"
+    }
 }
