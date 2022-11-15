@@ -1,0 +1,12 @@
+<?php
+
+namespace WPEloquent\Model\Term;
+
+class Relationships extends \Illuminate\Database\Eloquent\Model
+{
+    protected $table = 'term_relationships';
+    protected $primaryKey = 'term_taxonomy_id';
+    public $timestamps = false;
+    protected $guarded = [];
+
+}
